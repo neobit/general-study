@@ -4,12 +4,12 @@
 # se já passou do tempo de alistamento
 # Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
 
-import datetime
+from datetime import date
 
 birthyear = int(input('Informe seu ano de nascimento: '))
 
 militaryday = birthyear + 18
-todayyear = (datetime.date.today()).year
+todayyear = (date.today()).year
 
 if todayyear > militaryday:
     print('Você está atrasado para o serviço militar. Fazem {} anos que você deveria ter se alistado.'.format(todayyear-militaryday))
