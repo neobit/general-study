@@ -13,5 +13,4 @@ for i in range(0,7):
     else:
         maiores.append(anos)
 
-for i in range(0,7):
-    
+print('Dos anos que você digitou, {} pessoas ainda não tem 18 anos e {} já são maiores de idade.'.format(len(menores),len(maiores)))

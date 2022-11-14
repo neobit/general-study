@@ -4,5 +4,5 @@ firsterm = int(input('Digite o primeiro termo da progressão aritmética: '))
 razao = int(input('Digite a razão da progressão aritmética: '))
 
 for i in range(firsterm,(firsterm + (10 - 1)*razao)+1, razao):
-    print(i)
-
+    print(i, end=' -> ')
+print('Acabou')
