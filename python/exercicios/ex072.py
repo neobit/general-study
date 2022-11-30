@@ -5,16 +5,23 @@ jogador = dict()
 jogador['nome'] = str(input('Nome do Jogador: '))
 jogador['partidas'] = int(input(f'Quantas partidas {jogador["nome"]} jogou?: '))
 
+soma = 0
 gols = list()
 for i in range(0, jogador['partidas']):
     gols.append(int(input(f'Quantos gols foram realizados na partida {i+1}?: ')))
 jogador['gols'] = gols[:]
+for i in gols:
+    soma += i
+jogador['total'] = soma
+
 print('-='*30)
 print(jogador)
 print('-='*30)
-for x, y in jogador:
+
+for x, y in jogador.items():
     print(f'O campo {x} tem o valor {y}.')
 print('-='*30)
 print(f'O jogador {jogador["nome"]} jogou {jogador["partidas"]} partidas.')
 for i in range(0, jogador['partidas']):
-    print(f' => Na partida {i+1}, fez {jogador[]} gols.')
+    print(f'   => Na partida {i+1}, fez {jogador["gols"][i]} gols.')
+print(f'Foi um total de {jogador["total"]} gols.')
