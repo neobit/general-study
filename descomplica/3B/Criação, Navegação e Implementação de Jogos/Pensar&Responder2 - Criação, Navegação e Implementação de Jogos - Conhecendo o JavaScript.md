@@ -1,0 +1,1 @@
+A) As linguagens para a criação do game são: HTML, CSS e JavaScript. São tecnologias web, HTML e CSS sendo responsável pela exibição e Javascript para a lógica.

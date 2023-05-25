@@ -1,0 +1,1 @@
+a) A indicação de erro é var ctx = canvas.getContext(‘3d’), que o correto é 2D, e o outro erro foi deixar radius: 25 que identifica o raio para um objeto em círculo. 
