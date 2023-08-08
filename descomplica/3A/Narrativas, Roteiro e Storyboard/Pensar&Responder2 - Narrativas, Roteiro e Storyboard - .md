@@ -1,0 +1,1 @@
+B) As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.
