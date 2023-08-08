@@ -1,0 +1,1 @@
+A alternativa correta é a: ​D) I, II e IV
