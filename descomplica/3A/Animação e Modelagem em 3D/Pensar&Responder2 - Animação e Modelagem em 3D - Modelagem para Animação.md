@@ -1,1 +1,0 @@
-C) As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.

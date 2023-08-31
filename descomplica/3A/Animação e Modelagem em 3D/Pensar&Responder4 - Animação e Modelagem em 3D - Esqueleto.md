@@ -1,0 +1,1 @@
+D) A primeira afirmativa é falsa, e a segunda é verdadeira.

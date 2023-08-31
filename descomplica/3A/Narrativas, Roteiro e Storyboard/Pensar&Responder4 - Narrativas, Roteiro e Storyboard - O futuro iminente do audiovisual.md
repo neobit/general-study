@@ -1,0 +1,1 @@
+A) Somente a afirmativa I é verdadeira.
